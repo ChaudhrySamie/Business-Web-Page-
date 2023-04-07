@@ -1,0 +1,72 @@
+.Textsize{
+    font-size: xx-large;
+}
+@media screen and (max-width: 600px) {
+    .Textsizehead{
+        font-size: x-large;
+}
+}
+@media screen and (max-width: 315px) {
+    .Textsizehead{
+        font-size: large;
+}
+}
+@media screen and (max-width: 600px) {
+    .Textsizesubhead{
+        font-size: large;
+}
+} 
+@media screen and (max-width: 400px) {
+    .Textsizesubhead{
+        font-size: medium;
+}
+}  
+@media screen and (max-width: 315px) {
+    .Textsizesubhead{
+        font-size:smaller;
+}
+}   
+.heightassain{
+    height: 330px;
+}
+.heightassain1{
+    height: 420px;
+}
+.heightassain2{
+    height: 210px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .imgsize{
+        margin: auto;
+        width: 300px;
+}
+}
+.colorchange{
+    background-color: rgb(79, 233, 79);
+    border: none;
+    color: white;
+}
+.colorchange:hover{
+    background-color: rgb(23, 209, 23);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.themecolor{
+    background-color: rgb(243, 207, 3) !important;
+    border: none;
+}
+.themecolorhed{
+    color: rgb(255, 217, 1) !important;
+    border: none;
+}
+.themecolor:hover{
+    background-color: rgb(228, 194, 0) !important;
+    border: none;
+}
+.booknow:hover{
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 217, 1) !important;
+}
